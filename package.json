@@ -1,0 +1,39 @@
+{
+  "name": "leakhook",
+  "version": "0.1.0",
+  "description": "Zero-dependency git pre-commit hook that blocks commits containing secrets or forbidden files. No husky, no config.",
+  "type": "module",
+  "bin": {
+    "leakhook": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "git-hooks",
+    "secrets",
+    "security",
+    "pre-commit",
+    "leak",
+    "cli"
+  ],
+  "author": "Ahmed Mahmoud (Devya) <contact@devya.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eng-AhmedMahmoud/leakhook.git"
+  },
+  "homepage": "https://devya.dev",
+  "dependencies": {}
+}
