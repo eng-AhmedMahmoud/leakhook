@@ -2,7 +2,7 @@
 
 > Stop secrets before they hit git history — one hook, zero deps.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![Node >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](#contributing)
 
@@ -160,7 +160,7 @@ node bin/cli.js --help
 
 ## License
 
-MIT © 2026 Ahmed Mahmoud (Devya) — see [LICENSE](./LICENSE).
+GPL-3.0-or-later © 2026 Ahmed Mahmoud (Devya) — see [LICENSE](./LICENSE).
 
 ---
 
